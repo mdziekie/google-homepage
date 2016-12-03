@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#logo {
+	position: relative;
+	top: 210px;
+	left: 695px;
+
+}
+img {
+	height: 97px;
+	width: 272px;
+}
+
+#searchbar {
+	position: relative;
+	top: 220px;
+	left: 578px;
+	border: 1px solid black;
+	border-color: #e6e6e6;
+	height: 40px;
+	width: 490px;
+	box-shadow: 1px 1px grey;
+	padding: 3px;
+	font-size: 18px;
+}
+.buttons {
+	height: 36px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 16px;
+	margin: 11px 4px;
+	text-align: center;
+
+}
+#searchbutton {
+	position: relative;
+	top: 240px;
+	left: 690px;
+}
+#luckybutton {
+	position: relative;
+	top: 182px;
+	left: 828px;
+}
+.buttons:hover {
+	color: black;
+}
+
+
+
+}
