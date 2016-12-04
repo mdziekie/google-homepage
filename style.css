@@ -18,11 +18,9 @@ img {
 	position: relative;
 	top: 220px;
 	left: 578px;
-	border: 1px solid black;
-	border-color: #e6e6e6;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 	height: 40px;
 	width: 490px;
-	box-shadow: 1px 1px grey;
 	padding: 3px;
 	font-size: 18px;
 }
@@ -47,12 +45,33 @@ img {
 #luckybutton {
 	position: relative;
 	top: 182px;
-	left: 828px;
+	left: 827px;
 }
 .buttons:hover {
-	color: black;
+	color: #222;
+	border: 1px solid #c6c6c6;
 }
-
-
-
+#header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -260px;
+}
+#header li {
+	display: block;
+	text-align: center;
+	padding: 14px 10px;
+	float: right;
+}
+li a {
+	color: #000;
+	text-decoration: none;
+	opacity: .75;
+}
+#appsicon {
+	height: 26px;
+	width: 26px;
+	opacity: .75;
+	margin-top: -3.75px;
 }
