@@ -75,3 +75,34 @@ li a {
 	opacity: .75;
 	margin-top: -3.75px;
 }
+#footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 38px;
+	color: #666;
+	}
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#leftfooter li {
+	float: left;
+	display: block;
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 22px;
+	padding-bottom: 12px;
+
+}
+#rightfooter li {
+	float: right;
+	display: block;
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 22px;
+	padding-bottom: 12px;
